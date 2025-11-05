@@ -16,6 +16,12 @@ And then you can download two files —— "slide_all.json" and "test_all.json" 
 - [highslide.py](./preproecess/highslide.py) In line 4, you should set `data_path` to the folder where "slide_all.json" and "test_all.json" are stored
 - [hightest.py](./preproecess/highslide.py) In line 5, you should set `data_path` to the folder where "slide_all.json" and "test_all.json" are stored
 - [school_test.py](./Simulate/school_test.py) In line 379, you should set `data_path` to the folder where "slide_all.json" and "test_all.json" are stored. In line 380, you should set `base_path` to the folder where `output files` are stored
+- [social_test.py](./Simulate/social_test.py) In line 298, you should set `base_path` to the folder where `output files` are stored
+
+## Set your LLM model
+Take `gpt-4.1-mini` for example
+- [parent_rec.py](./Simulate/parent_rec.py)
+- [school_test.py](./Simulate/school_test.py) In line 379, you should set `data_path` to the folder where "slide_all.json" and "test_all.json" are stored. In line 380, you should set `base_path` to the folder where `output files` are stored
 -[social_test.py](./Simulate/social_test.py) In line 298, you should set `base_path` to the folder where `output files` are stored
 
 ## Create your OpenAI Key
