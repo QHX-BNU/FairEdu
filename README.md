@@ -13,4 +13,6 @@ You can download the dataset in https://github.com/songlinxu/ClassroomSimulacra/
 And then you can download two files —— "slide_all.json" and "test_all.json" —— to the [dataset folder](./dataset/).
 
 ## Adjust your dataset path in code
-- [highslide.py](./preproecess/highslide.py)
+- [highslide.py](./preproecess/highslide.py) In line 4, You should set `data_path` to the folder where "slide_all.json" and "test_all.json" are stored
+- [hightest.py](./preproecess/highslide.py) In line 5, You should set `data_path` to the folder where "slide_all.json" and "test_all.json" are stored
+- [sch]
