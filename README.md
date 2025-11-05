@@ -10,4 +10,4 @@ As Large Language Models (LLMs) are increasingly integrated into educational tec
 # How to run the code
 ## Download dataset
 You can download the dataset in https://github.com/songlinxu/ClassroomSimulacra/tree/main/dataset.
-And then you can download two files —— "slide_all.json" and "test_all.json" —— to the dataset folder.
+And then you can download two files —— "slide_all.json" and "test_all.json" —— to the [dataset folder](./dataset/).
