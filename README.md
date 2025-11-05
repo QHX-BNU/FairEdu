@@ -20,9 +20,9 @@ And then you can download two files —— "slide_all.json" and "test_all.json" 
 
 ## Set your LLM model
 Take `gpt-4.1-mini` for example
-- [parent_rec.py](./Simulate/parent_rec.py)
-- [school_test.py](./Simulate/school_test.py) In line 379, you should set `data_path` to the folder where "slide_all.json" and "test_all.json" are stored. In line 380, you should set `base_path` to the folder where `output files` are stored
--[social_test.py](./Simulate/social_test.py) In line 298, you should set `base_path` to the folder where `output files` are stored
+- [parent_rec.py](./Simulate/parent_rec.py) In line 3, you should set `model` to yourself model.
+- [school_test.py](./Simulate/school_test.py) In line 9, you should set `model` to yourself model.
+- [social_test.py](./Simulate/social_test.py) In line 9, you should set `model` to yourself model.
 
 ## Create your OpenAI Key
 -[llm_respond.py](./Simulate/llm_respond.py) In line 31, you should set `self.api_key` to yourself OpenAI Key.
