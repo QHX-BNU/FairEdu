@@ -27,4 +27,12 @@ Take `gpt-4.1-mini` for example
 ## Create your OpenAI Key
 -[llm_respond.py](./Simulate/llm_respond.py) In line 31, you should set `self.api_key` to yourself OpenAI Key.
 
+## Run your code
+### Preprocess the data
+- run [highslide.py](./preproecess/highslide.py)
+- run [hightest.py](./preproecess/highslide.py)
 
+### Simulate
+- run [school_test.py](./Simulate/school_test.py)
+- run [parent_rec.py](./Simulate/parent_rec.py)
+- run [social_test.py](./Simulate/social_test.py)
